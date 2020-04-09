@@ -101,4 +101,11 @@ code {
   grid-template-columns: repeat(var(--cols), var(--tile-size));
   grid-gap: 0;
   align-self: flex-start;
-}                                                                   
+}           
+
+/* Next Block */
+.next-block {
+  display: grid;
+  grid-template-columns: repeat(4, var(--tile-size));
+  align-self: flex-start;
+}
