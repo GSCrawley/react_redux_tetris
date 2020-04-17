@@ -176,3 +176,22 @@ and 'b'. The '.' represents an empty cell on the grid. */
   border-right-color: var(--button-color-r);
   border-bottom-color: var(--button-color-b);
 }
+
+/* Message Popup - These styles apply to the `MessagePopup` container. With `position:absolute` this element can be placed anywhere on the screen, `left, top, transform:translate` perform this function.*/
+.message-popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--tile-size) * 10);
+  height: calc(var(--tile-size) * 10);
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+/* This style is applied only when the message popup container
+has both `message-popup` class and the `hidden` class. In this
+case the Message Popup is not displayed */
+.message-popup.hidden {
+  display: none;
+}
