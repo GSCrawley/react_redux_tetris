@@ -156,3 +156,23 @@ and 'b'. The '.' represents an empty cell on the grid. */
   grid-area: h;
 }
 
+/* controls */
+.controls {
+  grid-area: b;
+  display: flex;
+  flex-direction: row;
+}
+
+/* We want the buttons to be square with a width of 25% of grid board. The grid is 10 tiles wide, so the size of the buttons should be (2.5 * tile size) */
+.control-button {
+  --size: calc(var(--tile-size) * 2.5);
+  width: var(--size);
+  height: var(--size);
+  text-align: center;
+  display: block;
+  border-width: 5px;
+  border-top-color: var(--button-color-t);
+  border-left-color: var(--button-color-l);
+  border-right-color: var(--button-color-r);
+  border-bottom-color: var(--button-color-b);
+}
