@@ -44,3 +44,4 @@ class NextBlock extends Component {
 
   
 export default connect(mapStateToProps)(NextBlock)
+                             
