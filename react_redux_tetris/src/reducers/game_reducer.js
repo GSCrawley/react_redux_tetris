@@ -8,7 +8,8 @@ import {
   nextRotation,
   canMoveTo,
   addBlockToGrid,
-  checkRows
+  checkRows,
+  randomShape
 } from '../utils'
   
 const gameReducer = (state = defaultState(), action) => {
