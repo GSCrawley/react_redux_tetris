@@ -1,3 +1,6 @@
+
+![Alt text](react_redux_tetris/public/tetris.png?raw=true "React Tetris")
+
 # react_redux_tetris
 
 I built this game up component by component, then implemented actions and reducers, tied it all together and added styling. 
