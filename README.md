@@ -1,5 +1,5 @@
 
-![alt text](react_redux_tetris/public/tetris.jpg)
+![](react_redux_tetris/public/tetris.jpg)
 
 # react_redux_tetris
 
