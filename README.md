@@ -1,5 +1,5 @@
 
-![Alt text](react_redux_tetris/public/tetris.png?raw=true "React Tetris")
+![Alt text](react_redux_tetris/public/tetris.jpg?raw=true "React Tetris")
 
 # react_redux_tetris
 
