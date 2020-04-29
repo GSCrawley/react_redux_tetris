@@ -1,5 +1,4 @@
 
-![](public/tetris.jpg)
 
 # react_redux_tetris
 
