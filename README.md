@@ -1,6 +1,8 @@
 # react_redux_tetris
 
-We're going to build this game up component by component, then implement our actions and reducers, and tie it all together. We'll also be styling as we go along as well. At a high level, here's our plan to follow:
+I built this game up component by component, then implemented actions and reducers, tied it all together and added styling. 
+
+# here are the steps taken:
 
 Implement the overall grid square
 
