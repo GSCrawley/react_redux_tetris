@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react_redux_tetris/static/css/main.8bcd2ff4.chunk.css",
+    "main.js": "/react_redux_tetris/static/js/main.3bc6ae9a.chunk.js",
+    "main.js.map": "/react_redux_tetris/static/js/main.3bc6ae9a.chunk.js.map",
+    "runtime-main.js": "/react_redux_tetris/static/js/runtime-main.d0187506.js",
+    "runtime-main.js.map": "/react_redux_tetris/static/js/runtime-main.d0187506.js.map",
+    "static/js/2.d1620106.chunk.js": "/react_redux_tetris/static/js/2.d1620106.chunk.js",
+    "static/js/2.d1620106.chunk.js.map": "/react_redux_tetris/static/js/2.d1620106.chunk.js.map",
+    "index.html": "/react_redux_tetris/index.html",
+    "precache-manifest.28b9b8dfa833f4a1e9355adc4b6e7da4.js": "/react_redux_tetris/precache-manifest.28b9b8dfa833f4a1e9355adc4b6e7da4.js",
+    "service-worker.js": "/react_redux_tetris/service-worker.js",
+    "static/css/main.8bcd2ff4.chunk.css.map": "/react_redux_tetris/static/css/main.8bcd2ff4.chunk.css.map",
+    "static/js/2.d1620106.chunk.js.LICENSE.txt": "/react_redux_tetris/static/js/2.d1620106.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0187506.js",
+    "static/js/2.d1620106.chunk.js",
+    "static/css/main.8bcd2ff4.chunk.css",
+    "static/js/main.3bc6ae9a.chunk.js"
+  ]
+}
