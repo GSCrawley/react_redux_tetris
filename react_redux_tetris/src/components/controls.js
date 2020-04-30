@@ -39,9 +39,10 @@ class Controls extends Component {
   }
   const mapStateToProps = (state) => {
     return {
-        isRunning: state.game.isRunning
+      isRunning: state.game.isRunning,
+      gameOver: state.game.gameOver
     }
-}
+  }
   const mapDispatchToProps = () => {
     return {
         moveRight,
