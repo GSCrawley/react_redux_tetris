@@ -36,18 +36,18 @@ const gameReducer = (state = defaultState(), action) => {
           }
           return state
   
-          case MOVE_DOWN:
-            // Get the next potential Y position
-            const maybeY = y + 1
-            // Check if the current block can move here
-            if (canMoveTo(shape, grid, x, maybeY, rotation)) {
-                // If so move the block
-                return { ...state, y: maybeY }
-            }
-            // If not place the block
-            const newGrid = addBlockToGrid(shape, grid, x, y, rotation)
+        case MOVE_DOWN:
+          // Get the next potential Y position
+          const maybeY = y + 1
+          // Check if the current block can move here
+          if (canMoveTo(shape, grid, x, maybeY, rotation)) {
+              // If so move the block
+              return { ...state, y: maybeY }
+          }
+          // If not place the block
+          const newGrid = addBlockToGrid(shape, grid, x, y, rotation)
             // reset some things to start a new shape/block
-            const newState = defaultState()
+          const newState = defaultState()
             newState.grid = newGrid
             newState.shape = nextShape
             newState.nextShape = randomShape()
@@ -66,15 +66,14 @@ const gameReducer = (state = defaultState(), action) => {
             return newState
           
   
-      case RESUME:
-  
-        return state
-  
-      case PAUSE:
-  
-        return state
-  
-      case GAME_OVER:
+        case RESUME:
+            return { ...state, isRunning: true }
+        
+        case PAUSE:
+        
+              return { ...state, isRunning: false }
+      
+        case GAME_OVER:
   
         return state
   
